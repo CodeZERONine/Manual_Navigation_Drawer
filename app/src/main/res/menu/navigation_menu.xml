@@ -2,12 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/nav_account"
-        android:title="My Account"/>
+        android:title="My Account"
+        android:icon="@mipmap/ic_pets_black_24dp"/>
 
     <item android:id="@+id/settings"
-        android:title="My Account Settings"/>
+        android:title="My Account Settings"
+        android:icon="@mipmap/ic_pets_black_24dp"/>
 
     <item android:id="@+id/logout"
-        android:title="Logout"/>
+        android:title="Logout"
+        android:icon="@mipmap/ic_pets_black_24dp"/>
 
 </menu>

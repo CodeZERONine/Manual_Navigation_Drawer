@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         mDrawewLayout=(DrawerLayout)findViewById(R.id.drawerLayout);
         mToggle= new ActionBarDrawerToggle(this,mDrawewLayout,R.string.open,R.string.close);//Link Toggle to DrawerLayout to Hammburger button
 
-        mDrawewLayout.addDrawerListener(mToggle);//Listen to mToggle and Bring Drawer 
+        mDrawewLayout.addDrawerListener(mToggle);//Listen to mToggle and Bring Drawer
         mToggle.syncState();
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);//To Enable The BACk ARROW icon
